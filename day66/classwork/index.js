@@ -18,4 +18,3 @@ compareNums("5", 5);
 // chawere roca gecleba!!!!!
 
 
-// cw 3
