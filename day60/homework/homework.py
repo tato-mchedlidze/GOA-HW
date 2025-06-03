@@ -1,7 +1,3 @@
-
-# https://www.codewars.com/kata/59441520102eaa25260000bf
-# https://www.codewars.com/kata/559d2284b5bb6799e9000047
-
 # hw 1 The Wide-Mouthed frog!
 def mouth_size(animal):
     if animal.lower() == "alligator":
@@ -19,3 +15,12 @@ def nth_even(n):
 def replace_exclamation(st):
     return ''.join('!' if st in 'aeiouAEIOU' else st for st in st)
 
+
+# hw 4 5 without numbers !!
+def unusual_five():
+    return len("apple")
+
+
+# hw 5 Add Length
+def add_length(str_):
+    return [f"{word} {len(word)}" for word in str_.split()]
